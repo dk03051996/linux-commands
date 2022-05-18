@@ -1,0 +1,13 @@
+: timedatectl
+to check time zone
+
+:cat /etc/timezone.   or   ls -l /etc/localtime
+to check the timezone of ubuntu server
+
+
+:timedatectl list-timezones
+to check timezones list
+
+
+:sudo timedatectl set-timezone Europe/Rome
+to change the timezone to Europe
