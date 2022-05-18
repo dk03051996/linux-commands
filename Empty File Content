@@ -1,0 +1,23 @@
+ Empty File Content by Redirecting to Null
+ 
+ > access.log
+ it will delete the content of access.log file
+ 
+ Empty File Using ‘true’ 
+ # : > access.log
+OR 
+# true > access.log
+
+Empty File Using cat/cp/dd utilities with /dev/null
+cat /dev/null > access.log
+cp /dev/null access.log
+
+
+Empty File Using echo Command
+# echo "" > access.log
+OR
+# echo > access.log
+
+
+Empty File Using truncate Command
+# truncate -s 0 access.log
