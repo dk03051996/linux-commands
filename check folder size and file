@@ -1,0 +1,24 @@
+For folder 
+
+du -hs important
+it will list the size of folder important or we can write the path 
+where -h represent human readbale form like kb mb gb 
+-s represent specific option of that folder
+
+
+
+du -ha /home/ubuntu/important/
+it will list the size of that folder and size of files and subfolder inside it
+
+du -h /var/www/assets | sort -rh
+it will do the same but it will print in reverse order i.e. from heavy size to low
+
+
+For file
+
+
+ls -lh
+-h represent human readbale form
+
+ls -lh page1.html
+it will print size of page1.html
