@@ -9,5 +9,5 @@ to check the timezone of ubuntu server
 to check timezones list
 
 
-:sudo timedatectl set-timezone Europe/Rome
+:sudo timedatectl set-timezone Asia/Calcutta
 to change the timezone to Europe
