@@ -16,4 +16,8 @@ we can use different option in place of f
 
     b – block devices
 
+#TO PRINT the line of a file
+wc -l programming.txt.  or cat programmig.txt | wc -l
 
+#TO COUNT Number of time a word appears like mauris appears how many times where -o tells grep to print each word in separate line and wc count it 
+grep -o -i mauris example.txt | wc -l
