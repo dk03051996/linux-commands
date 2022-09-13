@@ -3,7 +3,10 @@
 
 
 sudo lsof -i -P -n | grep LISTEN
-sudo netstat -tulpn | grep LISTEN
-sudo ss -tulpn | grep LISTEN
+sudo netstat -tulpn | grep LISTEN # it will list out all ports open and listening with pid, process name local address and foreign address
+sudo ss -tulpn | grep LISTEN. #same as netstat
 sudo lsof -i:22 ## see a specific port such as 22 ##
 sudo nmap -sTU -O IP-address-Here
+netstat -tulnp 
+sudo netstat -tulnp | grep :22 # to check what is running in this port with details
+
