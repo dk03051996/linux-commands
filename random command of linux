@@ -1,0 +1,19 @@
+
+
+find assignment/ -size +1000M #to check file greater than 1000 MB in all folders
+
+sudo find assignment/ -type f -name "*.yaml". #to list file in folder named assignment
+
+we can use different option in place of f 
+
+    f – regular file
+
+    d – directory
+
+    l – symbolic link
+
+    c – character devices
+
+    b – block devices
+
+
