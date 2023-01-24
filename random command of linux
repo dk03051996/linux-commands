@@ -28,3 +28,6 @@ ls /etc | wc -l
 
 #TO PRINT NUMBER OF DIRECTORY IN PRESENT DIRECTORY ;   to print only list we will exclude wc -l
 find . -type d | wc -l
+
+
+nproc command to check cpu usage
