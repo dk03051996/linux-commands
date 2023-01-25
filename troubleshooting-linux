@@ -4,3 +4,10 @@ grep name test | awk -F" " '{print $4}'
 this command will print the 4th word os any sentence for example My name is Dikshant, then it will print DIkshant as output
 
 we use / in vi editor for search and write n as next check if there are multiple words you are searching for
+
+curl command retrieves the information 
+
+find / -name pam.d #it will search for file with name pam.d
+# DIfference between curl and wget is that wget downloads the content while curl only fetch it
+
+traceroute and tracepath is used to check the path of file
